@@ -1,0 +1,10 @@
+Web application build using flask and postgreSQL
+
+1-> Build Needed HTML and CSS
+2-> Create Basic flask app
+3-> Check data input from user
+4-> Create DB and table
+5-> Insert Data
+6-> Extract data and calculate average
+7-> Send Email to user
+8-> Deploy to server

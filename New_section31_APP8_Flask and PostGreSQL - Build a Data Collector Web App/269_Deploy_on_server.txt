@@ -1,0 +1,6 @@
+Deploy App on python anywhere
+code uploading needed manually file by file
+
+
+Create the data base on python anywhere and change code to point to the database
+create table manually in the database

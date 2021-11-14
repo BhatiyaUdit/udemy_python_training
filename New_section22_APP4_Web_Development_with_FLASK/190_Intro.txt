@@ -1,0 +1,8 @@
+Python can be used for web development as well
+using FLASK framework
+
+FLASK allow us to write web pages with the help
+of html, css, js
+
+Find out the web server that can be used for actual deployment
+ Werkzeug, flask

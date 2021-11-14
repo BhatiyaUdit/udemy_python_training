@@ -1,0 +1,14 @@
+refer to the files in the final_upload_feature folder
+upload a csv file ans do some processing and download
+
+handle operations securely
+
+
+covers dynamically insert button when download is available
+similar to adding header html to multiple pages
+
+download button will be in download.html
+and will be included as html using jinja {% include btn igonre missing %}
+
+sendfile via browser as download
+

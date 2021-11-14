@@ -1,0 +1,1 @@
+print("Inside blog >> init.py ")

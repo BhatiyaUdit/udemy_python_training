@@ -1,0 +1,11 @@
+Deploy on python anywhere
+    Create account
+    Create web app
+        select domain
+        select web framework
+        select python version
+        select script path
+
+    Create required folders
+        Manually upload files
+        Reload web app

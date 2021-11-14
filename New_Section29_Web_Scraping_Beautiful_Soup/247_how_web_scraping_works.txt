@@ -1,0 +1,15 @@
+How web scraping works?
+
+Get the HTML page from web
+
+python will convert the source of the html page
+
+html tags will convert to data and we can extract the values from those
+
+
+use request library get the source of html page
+then use beautiful-soup to convert the script to python data
+
+
+
+

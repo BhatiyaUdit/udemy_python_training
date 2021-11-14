@@ -1,0 +1,9 @@
+Web application build using flask and postgreSQL
+
+Application to collect information from the user
+    email
+    height
+
+Save the Data in to db
+Calculate the average of all the heights
+sends the information through the email to user

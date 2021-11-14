@@ -1,0 +1,6 @@
+
+>> python -m venv virtual
+>> \virtual\Scripts\activate
+>> pip list
+
+>> pip install django

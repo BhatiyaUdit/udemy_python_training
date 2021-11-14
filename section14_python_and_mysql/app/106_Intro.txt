@@ -1,0 +1,5 @@
+106.
+    Query the data from a remote mysql database instead of using json data file
+
+    Library used:
+        mysql-connector-python

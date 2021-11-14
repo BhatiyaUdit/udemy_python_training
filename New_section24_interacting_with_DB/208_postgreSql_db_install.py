@@ -1,0 +1,1 @@
+# install postgresql and psycopg2

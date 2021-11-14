@@ -1,0 +1,24 @@
+Congratulations! You have completed this section!
+
+Here is a summary of what you learned in this section:
+
+A Python program in Visual Studio Code can be executed using either (1) by pressing the run button or (2) by executing the commands below in the terminal:
+
+py -3.9 file_name.py (Windows)
+
+python3.9 file_name.py (Mac and Linux)
+
+Note: You may need to replace 3.9 with the Python version you are using.
+
+A Python shell can be started by executing the command below in the terminal:
+
+py -3.9 (Windows)
+
+python3.9 (Mac and Linux)
+
+Note: You may need to replace 3.9 with the Python version you are using.
+
+You can use the Python print() function to print out output in the terminal.
+
+Variables are names that reference objects. They make the code more readable and allow the objects they refer to be easily reused inside a program.
+

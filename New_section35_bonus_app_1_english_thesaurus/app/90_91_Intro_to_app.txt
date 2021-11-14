@@ -1,0 +1,19 @@
+90 How the output will look like
+
+    User will be asked to enter a word through command line
+    IF the word is present in data set
+        Op-> will be the definition(s) of the word
+
+    IF the user enters partially matching word then (ex Rainn)
+        Prompt if you mean "rain" ? Y is yes , N  is no\
+
+    IF the word is some random text (ex aaaaddkdfkfmd)
+        Op-> word not found
+
+    Do not apply case sensitivity on user input
+
+
+91 Data set
+    Json file data.json
+    will have key value pairs
+    one word can have multiple definitions

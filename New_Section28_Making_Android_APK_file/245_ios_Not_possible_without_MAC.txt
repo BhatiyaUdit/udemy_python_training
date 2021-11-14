@@ -1,0 +1,7 @@
+Unfortunately, converting a kivy app to an iOS app requires you to have access to a Mac computer. The conversion cannot be done on a Windows or a Linux computer.
+
+It's also currently not possible to do this with Python 3. You need to use Python 2.
+
+I will replace these notes with a video once there's a stable method to convert kivy apps to iOS. Meanwhile, you can try the official instructions found here: https://kivy.org/doc/stable/guide/packaging-ios.html
+
+or if you prefer video, you can watch this YouTube video from Erik Sandberg: https://www.youtube.com/watch?v=UAi3PG-qN2k

@@ -1,0 +1,16 @@
+We are going to use Jupyter in the next videos. Just to refresh your memory,
+Jupyter can be started by running the following command on your terminal:
+
+jupyter notebook
+
+That will start Jupyter Notebook on your internet browser.
+
+If the above command doesn't work, try the alternative:
+
+On Windows:
+
+py -3.9 -m jupyter notebook
+
+On Mac:
+
+python3.9 -m jupyter notebook

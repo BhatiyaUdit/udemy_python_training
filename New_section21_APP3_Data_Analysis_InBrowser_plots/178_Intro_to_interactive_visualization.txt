@@ -1,0 +1,11 @@
+Plotting Library used for interactive Visualization is
+
+HighCharts.js Pure JS Library used for plotting interactive graphs/charts
+
+This library is used with the help of justpy Python module
+
+JustPy is web development framework like FLASK
+    Main difference we do not need to write code in
+    HTML , CSS , JS with Justpy
+
+    In Flask we need to use HTML , CSS , JS

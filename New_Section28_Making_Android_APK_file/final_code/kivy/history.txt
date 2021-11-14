@@ -1,0 +1,57 @@
+    1  apk add sudo
+    2  clear
+    3  apt update 
+    4  clear
+    5  apt install sudo
+    6  clear
+    7  apt install git
+    8  clear
+    9  cd ..
+   10  ls 
+   11  cd usr
+   12  ls
+   13  mkdir udit
+   14  cd udit/
+   15  sl
+   16  ls
+   17  clear
+   18  git clone https://github.com/BhatiyaUdit/kivy.git
+   19  cd kivy
+   20  ls
+   21  bash kivy-buildozer-installer.sh 
+   22  clear
+   23  python3 main.py
+   24  clear
+   25  buildozer init
+   26  cat buildozer.spec 
+   27  clear
+   28  sudo apt-get install vim
+   29  clear
+   30  vi buildozer.spec 
+   31  cat buildozer.spec 
+   32  clear
+   33  buildozer android debug
+   34  sudo apt-get install zlib1g-dev
+   35  buildozer android debug
+   36  sudo apt-get install openjdk-8-jdk
+   37  clear
+   38  buildozer android debug
+   39  sudo apt-get install unzip
+   40  cd ../../../
+   41  ls
+   42  cd root/.buildozer
+   43  cd ..
+   44  rm -r .buildozer
+   45  cd ../usr/udit/kivy
+   46  ls
+   47  buildozer android debug
+   48  sudo apt-get install build-essential
+   49  buildozer android clean debug
+   50  sudo apt-get install autoconf
+   51  sudo apt-get install autotools-dev
+   52  clear
+   53  buildozer android clean debug
+   54  clear
+   55  history
+   56  touch history.txt
+   57  history > history.txt

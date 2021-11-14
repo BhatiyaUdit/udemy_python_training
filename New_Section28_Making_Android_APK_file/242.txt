@@ -1,0 +1,25 @@
+Creating a virtual environment
+
+Option 1 : Install virtual box and install ubuntu on that
+Option 2 : Dual Boot PC to windows and linux
+Option 3 : Install Docker and pull ubuntu image
+
+Setting up option 3
+
+docker pull ubuntu:latest
+docker run -it ubuntu /bin/bash
+
+After accessing bash
+# su -
+# apt update
+# apt install sudo
+# apt install git
+
+Import code from local machine to ubuntu
+
+# cd /usr/
+# mkdir udit
+# git clone https://github.com/bhatiyaudit/kivy.git
+# cd kivy
+
+Now code and environment is ready

@@ -1,0 +1,10 @@
+What is web scraping?
+
+Extract information from web pages
+
+browse internet get the html pages and extract the data from it and put in structured format
+
+
+use : beautiful-soup
+
+pip install bs4

@@ -1,0 +1,5 @@
+After APK is ready
+
+Download apk from git
+
+install on mobile

@@ -1,0 +1,8 @@
+Tkinter library is used to build Desktop GUI
+
+with this we can create desktop application for window? need to check in other os
+
+combine this GUI with DB to create a real world book store app
+
+#
+TKinter is build in python library

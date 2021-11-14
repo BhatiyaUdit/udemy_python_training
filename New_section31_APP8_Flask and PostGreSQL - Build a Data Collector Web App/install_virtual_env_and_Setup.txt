@@ -1,0 +1,14 @@
+pip install virtualenv
+
+python -m venv virtual
+
+virtual\script\pip install flask
+
+or
+
+virtual\script\activate
+
+pip install flask
+
+
+runs in command prompt only not in terminal

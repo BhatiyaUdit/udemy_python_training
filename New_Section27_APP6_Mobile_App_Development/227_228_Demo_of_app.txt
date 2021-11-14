@@ -1,0 +1,30 @@
+Mobile App development
+    Feel Good app that will take feeling as input and
+    give quote based on the feeling
+
+
+    App will work on Android, IOS and Desktops
+
+    Library used kivy -> pip install kivy
+
+    File name to run mobile app should be main.py
+
+
+    229 Notes:
+        To create an app using kivy there are two ways
+            1       Write all code in python
+            2       Write UI in Kivy language and logic in python
+
+        To use Kivy language we need to create design.kv file and use that to create UI
+
+        in python file
+        we need to import App from kivy.app
+        from kivy.lang import Builder
+        from kivy.uix.screenmanager import ScreenManager, Screen
+
+        Load the kv file
+
+        Write empty classes that map to Screen in kv file (exact Name)
+        Write MAinApp CLass inherit from App
+
+        Run the APP conditionally of the class name is main

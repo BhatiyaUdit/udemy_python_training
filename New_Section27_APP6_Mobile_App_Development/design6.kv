@@ -1,0 +1,76 @@
+<LoginScreen>:
+    GridLayout:
+        cols: 1
+        GridLayout:
+            cols: 1
+            Label:
+                text: "User Login"
+            TextInput:
+                id: username
+                hint_text: "Username"
+            TextInput:
+                id : password
+                hint_text: "Password"
+            Button:
+                text: "Login"
+                on_press : root.login_handler()
+            Label:
+                id: errorMsg
+                text : ""
+        GridLayout:
+            cols: 2
+            Button:
+                text: "Forgot Password ? "
+            Button:
+                text: "Sign Up"
+                on_press: root.sign_up()
+
+<SignUpScreen>:
+    GridLayout:
+        cols : 1
+        Label:
+            text : "Sign UP"
+        TextInput:
+            id: username
+            hint_text: "Username"
+        TextInput:
+            id: password
+            hint_text: "Password"
+        Button:
+            text: "Sign Up"
+            on_press: root.sign_up_handler(root.ids.username.text, root.ids.password.text)
+        Button:
+            text: "Go Back"
+            on_press: root.back()
+
+<SignUpSuccess>:
+    GridLayout:
+        cols : 1
+        Label:
+            text : "Sign UP Successful"
+        Button:
+            text: "Go to Login"
+            on_press: root.login()
+
+<HomeScreen>:
+    GridLayout:
+        cols: 1
+        Button:
+            text: "Log Out"
+            on_press : root.logout()
+        Label:
+            text: "How do you feel ?"
+        TextInput:
+            hint_text: "Try : Happy , Sad , etc"
+        Button:
+            text: "Enlighten me !!"
+
+<RootWidget>:
+    LoginScreen:
+        name: "login"
+    SignUpScreen:
+        name : "signup"
+    SignUpSuccess:
+        name : "signup_success"
+    HomeScreen:
+        name : "home"

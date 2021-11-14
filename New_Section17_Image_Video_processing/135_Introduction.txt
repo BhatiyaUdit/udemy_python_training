@@ -1,0 +1,9 @@
+Section for learning computer vision and then apply this in Next Section for Video processing
+
+Computer Vision -> Field that deals with aquiring images and processing them
+                    Take actions/ make decisions based on data in images
+
+Using Python for image and video processing
+Library used openCV -> Open Source Computer Vision
+
+Face and Motion Detection using Python

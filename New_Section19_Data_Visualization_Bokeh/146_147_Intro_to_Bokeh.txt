@@ -1,0 +1,3 @@
+Data Visualization library that can be used to read files/json to plot the graph on browser
+
+pip install bokeh

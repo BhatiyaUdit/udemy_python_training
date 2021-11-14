@@ -1,0 +1,32 @@
+Create a Database manually
+
+but create a table using the script
+
+psycopg2
+
+
+in flask using sqlAlchemy :: does the job with less lines of code
+
+
+(virtual) C:\Project\Python_practice\HelloWorld\udemy\New_section31_APP8_Flask and PostGreSQL - Build a Data Collector Web App>python
+Python 3.8.8rc1 (tags/v3.8.8rc1:dfd7d68, Feb 17 2021, 10:45:44) [MSC v.1928 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from 263_Create_table_SQLAlchemy import db
+  File "<stdin>", line 1
+    from 263_Create_table_SQLAlchemy import db
+            ^
+SyntaxError: invalid decimal literal
+
+C:\Project\Python_practice\HelloWorld\udemy\New_section31_APP8_Flask and PostGreSQL - Build a Data Collector Web App\virtual\lib\site-packages\flask_sqlalchemy\__init__.py:872: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  warnings.warn(FSADeprecationWarning(
+>>> db.createall()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'SQLAlchemy' object has no attribute 'createall'
+
+
+These lines will create the table and column
+
+>>> from Create_table_SQLAlchemy import db
+>>> db.create_all()
+>>>

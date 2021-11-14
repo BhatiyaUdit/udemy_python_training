@@ -1,0 +1,208 @@
+After the environment is ready :
+
+Need to install all the dependencies required
+
+Installing dependencies take more than one attempt due to connection time out
+Also memory is needed is more than 4GB
+Download required around 5GB
+
+Once all the below commands completed successfully
+Need to execute buildozer commands
+    4  apt update
+    6  apt install sudo
+    7  sudo apt install git
+    9  cd usr
+   10  mkdir udit
+   11  cd udit
+   12  git clone https://github.com/bhatiyaudit/kivy.git
+   13  cd kivy
+   15  bash kivy-buildozer-installer.sh
+   16  sudo apt-get install -y curl
+   17  sudo apt-get install -y python3-distutils
+   18  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+   19  sudo python3 get-pip.py
+   20  sudo apt-get install -y python-pip
+   21  sudo apt-get install -y python3-pip
+   22  sudo apt-get install -y build-essential
+   23  sudo apt-get install -y git
+   24  sudo apt-get install -y python
+   25  sudo apt-get install -y python3-dev
+   26  sudo apt-get install -y ffmpeg
+   28  cd ..
+   30  cd usr/udit/kivy
+   32  sudo apt-get install -y ffmpeg
+   33  sudo apt-get install -y libsdl2-dev
+   34  sudo apt-get install -y libsdl2-image-dev
+   35  sudo apt-get install -y libsdl2-mixer-dev
+   36  sudo apt-get install -y libsdl2-ttf-dev
+   37  sudo apt-get install -y libportmidi-dev
+   38  sudo apt-get install -y libswscale-dev
+   39  sudo apt-get install -y libavformat-dev
+   40  sudo apt-get install -y zlib1g-dev
+   41  sudo apt-get install -y libavcodec-dev
+   42  sudo pip3 install cython
+   43  sudo pip3 install kivy
+   44  sudo apt-get install -y build-essential
+   45  sudo apt-get install -y ccache
+   46  sudo apt-get install -y git
+   47  sudo apt-get install -y libncurses5:i386
+   48  sudo apt-get install -y libstdc++6:i386
+   49  sudo apt-get install -y libgtk2.0-0:i386
+   50  sudo apt-get install -y libpangox-1.0-0:i386
+   51  sudo apt-get install -y libpangoxft-1.0-0:i386
+   52  sudo apt-get install -y libidn11:i386
+   53  sudo apt-get install -y python2.7
+   54  sudo apt-get install -y python2.7-dev
+   55  sudo apt-get install -y openjdk-8-jdk
+   56  sudo apt-get install -y unzip
+   57  sudo apt-get install -y zlib1g-dev
+   58  sudo apt-get install -y zlib1g:i386
+   59  sudo apt-get install -y libltdl-dev
+   60  sudo apt-get install -y libffi-dev
+   61  sudo apt-get install -y libssl-dev
+   62  sudo apt-get install -y autoconf
+   63  sudo apt-get install -y autotools-dev
+   64  sudo apt-get install -y cmake
+   65  bash kivy-buildozer-installer.sh
+   66  cd ~/buildozer-repo
+   67  git clone https://github.com/kivy/buildozer.git
+   68  cd buildozer
+   69  sudo python3 setup.py install
+   70  buildozer init
+   # Change the SPEC file
+   74  buildozer android debug
+   75  sudo apt install zip
+   76  buildozer android clean debug
+   # INSTALL GRADLE
+   77  /usr/udit/kivy/.buildozer/android/platform/build-arm64-v8a/dists/myfeelapp__arm64-v8a/gradlew assembleDebug
+   78  buildozer android clean debug
+   79  /usr/bin/python3 -m pythonforandroid.toolchain apk --debug --bootstrap=sdl2 --dist_name myfeelapp --name \'My Feel Application\' --version 0.1 --package org.test.myfeelapp --minsdk 21 --ndk-api 21 --private /usr/udit/kivy/.buildozer/android/app --android-entrypoint org.kivy.android.PythonActivity --android-apptheme @android:style/Theme.NoTitleBar --orientation sensor --window --copy-libs --arch arm64-v8a --color=always --storage-dir="/usr/udit/kivy/.buildozer/android/platform/build-arm64-v8a" --ndk-api=21 --ignore-setup-py --debug
+   80  gradle -v
+   81  cd ..
+   82  ls
+   83  cd opt
+   85  ls
+   86  cd ..
+   87  apt install wget
+   88  VERSION=6.5.1
+   89  wget https://services.gradle.org/distributions/gradle-${VERSION}-bin.zip -P /tmp
+   90  sudo unzip -d /opt/gradle /tmp/gradle-${VERSION}-bin.zip
+   91  sudo ln -s /opt/gradle/gradle-${VERSION} /opt/gradle/latest
+   92  sudo nano /etc/profile.d/gradle.sh
+   93  sudo apt install nano
+   94  sudo nano /etc/profile.d/gradle.sh
+   95  sudo cat /etc/profile.d/gradle.sh
+   96  sudo chmod +x /etc/profile.d/gradle.sh
+   97  source /etc/profile.d/gradle.sh
+   98  gradle -v
+   99  ls
+  100  cd usr/udit/kivy/
+  101  ls
+  102  buildozer android clean debug
+  103  ls
+  104  cd bin
+  105  ls
+  106  cd ..
+  107  git status
+  108  touch .gitignore
+  109  ls
+  110  git status
+  111  vim .gitignore
+  112  vi .gitignore
+  113  nano .gitignore
+  114  git status
+  115  git add .
+  116  git commit -m "Added APK finally"
+  117  git config --global user.email "udit123bhatiya.com"
+  118  git commit -m "Added APK finally"
+  119  git push origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#!/bin/bash
+
+# Install Python pip
+sudo apt-get install -y curl
+sudo apt-get install -y python3-distutils
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python3 get-pip.py
+
+# Dependencies with SDL2
+# Install necessary system packages
+sudo apt-get install -y python3-pip
+sudo apt-get install -y build-essential
+sudo apt-get install -y git
+sudo apt-get install -y python
+sudo apt-get install -y python3-dev
+sudo apt-get install -y ffmpeg
+sudo apt-get install -y libsdl2-dev
+sudo apt-get install -y libsdl2-image-dev
+sudo apt-get install -y libsdl2-mixer-dev
+sudo apt-get install -y libsdl2-ttf-dev
+sudo apt-get install -y libportmidi-dev
+sudo apt-get install -y libswscale-dev
+sudo apt-get install -y libavformat-dev
+sudo apt-get install -y zlib1g-dev
+sudo apt-get install -y libavcodec-dev
+
+# Dependencies Kivy
+sudo pip3 install cython
+
+# Install Kivy
+sudo pip3 install kivy
+
+# Dependencies Buildozer
+sudo apt-get install -y build-essential
+sudo apt-get install -y ccache
+sudo apt-get install -y git
+
+sudo apt-get install -y libncurses5:i386
+sudo apt-get install -y libstdc++6:i386
+sudo apt-get install -y libgtk2.0-0:i386
+sudo apt-get install -y libpangox-1.0-0:i386
+sudo apt-get install -y libpangoxft-1.0-0:i386
+sudo apt-get install -y libidn11:i386
+sudo apt-get install -y zlib1g:i386
+
+sudo apt-get install -y python2.7
+sudo apt-get install -y python2.7-dev
+sudo apt-get install -y openjdk-8-jdk
+sudo apt-get install -y unzip
+sudo apt-get install -y zlib1g-dev
+
+sudo apt-get install -y libltdl-dev
+sudo apt-get install -y libffi-dev
+sudo apt-get install -y libssl-dev
+sudo apt-get install -y autoconf
+sudo apt-get install -y autotools-dev
+sudo apt-get install -y cmake
+sudo apt-get install -y zip
+
+# Install Buildozer
+
+# Cloning Buildozer repository directly to the HOME directory causes the
+# AttributeError 'Namespace' object has no attribute 'ignore_setup_py' error when trying to build apk file.
+# So Buildozer repository should be cloned to any directory except HOME
+mkdir ~/buildozer-repo
+cd ~/buildozer-repo
+
+git clone https://github.com/kivy/buildozer.git
+cd buildozer
+sudo python3 setup.py install

@@ -1,0 +1,6 @@
+to read excel we need pandas helper libs
+
+for xls --> xlrd
+for xlsx --> openpyxl
+
+pip install openpyxl

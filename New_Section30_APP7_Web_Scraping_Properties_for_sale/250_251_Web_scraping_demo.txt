@@ -1,0 +1,12 @@
+extract the data from a real estate website to pandas df and excel csv
+
+
+Important note:
+
+Please note that the URL of the website we are scraping in the videos is outdated. Please use this new URL instead:
+
+https://pythonizing.github.io/data/real-estate/rock-springs-wy/LCWYROCKSPRINGS/
+
+
+Code will be highly specific to the website and its content
+can't be used in generic manner

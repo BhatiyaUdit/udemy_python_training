@@ -1,0 +1,11 @@
+going to build is a program that
+
+detects objects, moving objects in front of a computer webcam and then what it
+
+does it record the time that the object enters the webcam, so the video frame
+
+and the time when the object exited the video frame, so now there is a moving
+
+object in frame and if I go away you see that there's no green rectangle now in
+
+the video.

@@ -1,0 +1,62 @@
+Build only index.html file only
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Data Collector app</title>
+        <link rel="stylesheet" href="./../static/main.css">
+    </head>
+    <body>
+        <center>
+            <h1>Data Collector web app</h1>
+            <div>
+                <h3> Collecting Heights </h3>
+                <h4> Please fill the entries to get the population statistics on height : </h4>
+            </div>
+            <form>
+                <input
+                        type="email"
+                        placeholder="Please enter email"
+                        title="EMAIL"
+                        name="email_name"
+                        required
+                >
+                <br>
+                <input
+                        type="number"
+                        placeholder="Please enter height in cm(s)"
+                        min="0" max="200"
+                        name="height_name"
+                        title="HEIGHT"
+                        step="0.1"
+                        required
+                >
+                <br>
+                <button type="submit">Submit Entries</button>
+                <br>
+                <button type="reset">Reset Form</button>
+            </form>
+        </center>
+    </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Data Collector app</title>
+        <link rel="stylesheet" href="./../static/main.css">
+    </head>
+    <body>
+        <center>
+            <h1>Data Collector web app</h1>
+            <div>
+                <h3> Thank you for your submission </h3>
+                <h4> You will receive an email shortly !! </h4>
+            </div>
+        </center>
+    </body>
+</html>
