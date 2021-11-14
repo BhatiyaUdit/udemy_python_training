@@ -1,0 +1,3 @@
+Study more and Write details here
+
+about django arch and flow
