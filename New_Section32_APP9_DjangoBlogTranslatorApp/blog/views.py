@@ -15,5 +15,8 @@ class BlogView(DetailView):
     template_name = "blog.html"
 
 
-class HomeView(TemplateView):
-    template_name = "index.html"
+# class HomeView(TemplateView):
+#     template_name = "index.html"
+
+class AboutView(TemplateView):
+    template_name = "about.html"
