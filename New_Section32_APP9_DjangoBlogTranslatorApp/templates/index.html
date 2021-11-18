@@ -22,13 +22,13 @@
             <div class="card m-3">
                 <div class="card-body">
                     <h2 class="card-title">
-                        {{post.title}}
+                        {{post.title | title}}
                     </h2>
                     <p class="card-text">
-                        {{post.content}}
+                        {{post.content | slice:"100"}}...(Read More)
                     </p>
                     <p class="card-text">
-                        Author : {{post.author}}
+                        Author : {{post.author | title}}
                     </p>
                     <a class="btn btn-primary" href="{% url 'blog_pattern' post.slug %}">Read More</a>
                 </div>
