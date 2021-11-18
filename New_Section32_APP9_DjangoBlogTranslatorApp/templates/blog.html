@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Blog Posts</title>
-    </head>
-    <body>
-        <h1>
-            Blog Post
-        </h1>
-        <p>
-            {{object.title}}
-            <br>
-            {{object.content}}
-        </p>
-    </body>
-</html>
+{% extends 'base_nav.html' %}
+
+{% block content %}
+<h1>
+    Blog Post
+</h1>
+<p>
+    {{object.title}}
+    <br>
+    {{object.content}}
+</p>
+{% endblock content %}
+
+
+
