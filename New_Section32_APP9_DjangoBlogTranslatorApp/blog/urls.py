@@ -5,5 +5,6 @@ print("Inside blog >> urls.py ")
 
 urlpatterns = [
     path('<slug:slug>', views.BlogView.as_view(), name='blog_pattern'),
-    path("about/", views.AboutView.as_view(), name="about_view_pattern")
+    path("about/", views.AboutView.as_view(), name="about_view_pattern"),
+    path("", views.HomeView.as_view(), name="home_view_pattern"),
 ]

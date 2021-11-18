@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import Posts
-from django.views.generic import DetailView, TemplateView
+from django.views.generic import DetailView, TemplateView, ListView
 
 print("Inside blog >> views.py ")
 
@@ -15,8 +15,12 @@ class BlogView(DetailView):
     template_name = "blog.html"
 
 
-# class HomeView(TemplateView):
-#     template_name = "index.html"
-
 class AboutView(TemplateView):
     template_name = "about.html"
+
+
+class HomeView(ListView):
+    # for desc order add 'minus -' symbol in orderby
+    queryset = Posts.objects.filter(status=1).order_by('date_created')
+    print("QUERY SET ------>", queryset)
+    template_name = "index.html"
