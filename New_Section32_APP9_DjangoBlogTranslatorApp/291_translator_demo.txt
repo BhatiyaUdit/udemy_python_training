@@ -1,0 +1,7 @@
+Why New app?
+
+1) Revise all the previous steps
+2) Learn Django Forms
+3) How to process data coming from user
+
+Library used googletrans

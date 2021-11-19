@@ -1,0 +1,5 @@
+Creating Empty Django App
+
+Step 1 : run command --> python manage.py startapp translator
+Step 2 : in mysite > settings.py register the app
+            add app name in INSTALLED_APPS list

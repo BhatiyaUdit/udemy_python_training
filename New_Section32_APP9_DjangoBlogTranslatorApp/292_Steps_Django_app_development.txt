@@ -1,0 +1,14 @@
+What are the steps involved to develop Django App?
+
+1) Gather requirement and research solution
+    For translator -> library googleTrans
+
+2) Create Empty Django App
+
+3) Start Top-Bottom Approach
+    HTML
+    configure URLS for HTML
+    Create View for URLs
+    Create model for views
+    Connect processing logic (and any other conf)
+
