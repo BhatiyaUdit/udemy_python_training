@@ -20,5 +20,6 @@ print("Inside mysite >> urls.py ")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('blog.urls'))
+    path('', include('blog.urls')),
+    path('translate/', include('translator.urls'))
 ]
