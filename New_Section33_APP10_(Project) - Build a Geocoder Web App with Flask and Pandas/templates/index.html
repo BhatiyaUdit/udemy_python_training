@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Flask GeoCoder</title>
+    </head>
+    <body>
+        <center style="margin: 100px">
+            <h2>Super Geocoder App</h2>
+            <h4>Please upload your CSV file. The values containing addresses should be in column name <i>address</i>
+                or <i>Address</i>
+            </h4>
+            <form action="{{ url_for('process') }}" method="post" enctype="multipart/form-data">
+                <input type="file" name="file_">
+                <button type="submit"> Submit File</button>
+            </form>
+            <h3>{{text}}</h3>
+            {% if text=="processed" %}
+            <table border="1">
+                <thead style="font-weight:bold">
+                    <tr>
+                        <td>index</td>
+                        <td>ID</td>
+                        <td>Address</td>
+                        <td>Name</td>
+                        <td>No of Emp</td>
+                        <td>Latitude</td>
+                        <td>Longitude</td>
+                    </tr>
+                </thead>
+                {% for key in data %}
+                <tr>
+                    <td>
+                        {{key}}
+                    </td>
+                    <td>
+                        {{data[key].ID}}
+                    </td>
+                    <td>
+                        {{data[key].Address}}
+                    </td>
+                    <td>
+                        {{data[key].Name}}
+                    </td>
+                    <td>
+                        {{data[key].Employees}}
+                    </td>
+                    <td>
+                        {{data[key].lat}}
+                    </td>
+                    <td>
+                        {{data[key].long}}
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+            <form action="{{url_for('download_csv')}}" target="_blank">
+                <button> {{download}}</button>
+            </form>
+            {% endif %}
+        </center>
+
+    </body>
+</html>
