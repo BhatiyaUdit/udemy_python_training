@@ -1,0 +1,10 @@
+
+Open -> Amount at which one share was available when the market opened
+
+High -> MAx Amount reached per share during the day
+
+Low -> Min Amount reached per share during the day
+
+Close -> Amount at which one share was available when market closed
+
+Volumne -> Number of shares sold during the day

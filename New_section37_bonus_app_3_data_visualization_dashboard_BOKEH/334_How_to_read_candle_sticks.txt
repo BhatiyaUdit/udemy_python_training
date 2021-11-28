@@ -1,0 +1,17 @@
+            |       -----> High of the day
+            |
+        +-------+   ------> Open/Close of the day (open if open is higher)
+        |       |
+        |       |
+        |       |
+        |       |
+        |       |
+        +-------+   -----> Open/Close of the day (open if open is lower)
+            |
+            |       ------> Low of the day
+
+
+        The rectangular area is colored red/green based on
+        if open is higher and close is lower then stock traded in loss therefore RED
+        if open is lower and close is higher then stock traded in gain therefore GREEN
+

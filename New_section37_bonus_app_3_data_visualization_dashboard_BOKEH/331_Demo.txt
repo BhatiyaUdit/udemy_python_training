@@ -1,0 +1,16 @@
+Data Visualization App in Flask
+Showing Stock market data
+Candle Stick Chart
+using Bokeh
+
+WEB APP with FLASK and BOKEH chart integration to web APP
+
+install pandas_datareader
+
+
+https://github.com/pydata/pandas-datareader
+
+## Google has been removed from list of data sources
+## Yahoo! is still working
+## Try iex
+
