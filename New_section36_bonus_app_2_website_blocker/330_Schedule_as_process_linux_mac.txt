@@ -1,0 +1,22 @@
+To Schedule the program as background process "LINUX/MAC"
+
+Need to use Cron service available by default
+
+Step 1: in the python file change the file path to hosts file
+        it should be '/etc/hosts'
+
+Step 2: Try to run the script with python - as normal script
+
+Step 3: run >> sudo crontab -e {{To Edit Cron File}}
+
+Step 4: At the end of the file add below line :
+            @reboot python3 /home/usr/app/website_blocker.py
+
+Save the file
+Nano to check the content
+Reboot the Machine
+
+No need of .pyw files
+
+Note ::: DO NOT GIVE RELATIVE PATH TO THE FILE
+        ,DO NOT GIVE TEMP PATH USED

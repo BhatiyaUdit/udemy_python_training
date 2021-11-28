@@ -1,0 +1,29 @@
+To Block the user from visiting a site
+Need to access hosts file present in below directory:
+
+Windows : C:\System32\drivers\etc\hosts
+Linux/Mac : /etc/hosts
+
+To block a particular host need to add details as :
+127.0.0.1   www.facebook.com
+
+this will block facebook when try to visit from browser
+
+Arch ----
+    Create infinite loop
+    Check time (between 8AM to 4PM ) Time controlled
+    If current time is in restricted hours:
+        Open the file
+        Check the text (website) name if not exists:
+            Insert in the file
+        else :
+            Do nothing
+    If time is in allowed hours:
+        Check the text if present :
+            Remove the text
+        else:
+            do nothing
+
+    Execute this every 5 sec
+
+Make this program execute as background process whenever computer starts

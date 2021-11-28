@@ -1,0 +1,33 @@
+To Schedule the program as background process "WINDOWS"
+
+We need to run the python file in windows with pythonw.exe instead python.exe
+
+shortcut to achieve the same is to rename the file to .pyw instead of .py
+
+By double-clicking the file it will run the file in the background process
+
+Note ::: DO NOT GIVE RELATIVE PATH TO THE FILE
+        ,DO NOT GIVE TEMP PATH USED
+
+Final Step :
+    Schedule the background process:
+    Open Task Scheduler
+        Create Task
+            Provide Name = website blocker
+            Configure for = Windows 10 From dropdown
+            Run with the highest privilege check box checked --Needed to run as Admin otherwise Permission error
+
+        Trigger Tab
+            New
+            Begin the task -> At Startup
+
+        Actions Tab
+            New
+            Start a Program
+            Browse *.pyw file
+
+        Conditions Tab
+            uncheck Start the task when computer is on AC power
+
+    To check -> Manually run -> if present in Task Manager as background process --- SUCCESS!!
+

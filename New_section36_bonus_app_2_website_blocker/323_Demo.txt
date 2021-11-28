@@ -1,0 +1,10 @@
+ Web site blocker
+
+ does not let browse certain addictive web sites
+
+ links need to manually configured
+
+
+ Run python script as a process
+
+
