@@ -1,0 +1,3 @@
+Depending on your version of Bokeh, you may get an IndexError: list index out of range error in the next video.
+If that is the case please see this thread here on how to easily fix the issue.
+https://www.udemy.com/course/the-python-mega-course/learn/lecture/5189318#questions/7916460
