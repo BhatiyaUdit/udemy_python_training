@@ -1,0 +1,15 @@
+download python from python.org  -- Add python to PATH
+download IDE -> VSCode or PyCharm
+
+terminal ---
+    >> py -3.10
+    >> should open python console
+
+Add 3.9 to PAth as well
+    >> py -3.9
+
+Run code in IDE
+    Create project >> Folder >> example.py
+
+    Add python extension to VS code
+

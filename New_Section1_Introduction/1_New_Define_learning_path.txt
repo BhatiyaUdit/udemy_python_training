@@ -1,0 +1,10 @@
+DEfine a goal
+
+Web developer
+GUI desktop
+Mobile app
+web scraping
+Data scientist etc
+
+Python basics in first 12 sections
+REfer the PNG file

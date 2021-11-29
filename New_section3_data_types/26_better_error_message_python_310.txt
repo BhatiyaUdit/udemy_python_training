@@ -1,0 +1,16 @@
+3.9----Syntax Error EOF while parsing below
+print("tadai".replace("i","y")  -- one missing round bracket
+3.10 --- ( was opened but never closed
+
+list = [1,2 3]
+            ^
+3.9 ---> syntax error
+list = [1,2 3]
+          ^^^
+3.10 ---> Syntax error -- perhaps forgot a comma
+
+when string method is not defined
+"str".relpace()
+
+3.9 -- Attribute error 'str' does not have replace()
+3.10 ---Attribute error 'str' does not have replace() , did you mean replace()?

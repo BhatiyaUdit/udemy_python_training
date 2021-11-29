@@ -1,0 +1,11 @@
+Current stable version 3.10 oct 2021
+previous was 3.9 oct 2020
+
+Install both try to use 3.10
+when extension do not support then use 3.9
+
+example openCV gives error with 3.10
+
+3.10 enhancements :
+    pattern matching , etc
+

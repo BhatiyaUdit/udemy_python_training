@@ -1,0 +1,21 @@
+download python from python.org  -- for MAC/linux
+download IDE -> VSCode or PyCharm
+
+Linux have same process as MAC
+or sudo apt install python3.9
+OR sudo snap install code --VSCode
+
+MAC -> open installer -> continue ... ... ...
+
+terminal ---
+    >> python3.10
+    >> should open python console
+
+Add 3.9.8 to the PC
+    >> python3.9
+
+Run code in IDE
+    Create project >> Folder >> example.py
+
+    Add python extension to VS code
+    
